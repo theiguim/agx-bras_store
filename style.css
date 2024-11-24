@@ -32,8 +32,9 @@ body {
 }
 
 #buttonSec h2 {
-
+    text-transform: uppercase;
     width: 90%;
+    font-size: 19px;
     text-align: center;
     color: #1a1a1a;
 }

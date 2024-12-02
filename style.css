@@ -1108,6 +1108,10 @@ footer {
 }
 
 @media (max-width: 450px) {
+    .secMain{
+        height: 96vh;
+    }
+
     .secMain>img {
         width: 80%;
         bottom: 0;
@@ -1119,14 +1123,14 @@ footer {
     }
 
     .headTxt>h1 {
-        font-size: 35px;
+        font-size: 40px;
         width: 350px;
         text-align: justify;
     }
 
     .headTxt>p {
 
-        font-size: 15px;
+        font-size: 18px;
         width: 350px;
         text-align: justify;
     }
@@ -1282,16 +1286,36 @@ footer {
 
     .aboutLiliane {
         width: 350px;
+        padding-bottom: 50px;
     }
 
     .aboutLiliane>h1 {
         width: 350px;
         font-size: 30px;
     }
+
+    .suport{
+        padding-bottom: 50px;
+    }
 }
 
+@media (max-width: 375px){
+    .secMain{
+        height: 110vh;
+    }
 
-/* resposividade XR main | SE */
-/* SEO */
-/* otimizar imagem */
-/* animacao */
+    .headTxt {
+        padding-top: 10vh;
+    }
+
+    .headTxt>h1 {
+        font-size: 34px;
+        width: 350px;
+        text-align: justify;
+    }
+
+    .headTxt>p {
+
+        font-size: 17px;
+    }
+}

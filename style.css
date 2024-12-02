@@ -940,6 +940,10 @@ footer {
 
 @media (max-width: 650px) {
 
+    .secMain {
+        height: 80vh;
+    }
+
     .gradient {
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.459) 0%, transparent 100%);
     }
@@ -973,6 +977,10 @@ footer {
     .secondItn>h2 {
         width: 400px;
         font-size: 20px;
+    }
+
+    .secondItn {
+        padding-top: 30px;
     }
 
     .gridItn {
@@ -1031,6 +1039,10 @@ footer {
         width: 400px;
     }
 
+    .courseContent {
+        padding: 0 0 30px 0;
+    }
+
     .courseContentWrap {
         width: 400px;
         gap: 10px;
@@ -1044,6 +1056,10 @@ footer {
         font-size: 35px;
     }
 
+    .bonus {
+        padding-top: 50px;
+    }
+
     .think {
         width: 400px;
         gap: 30px;
@@ -1052,17 +1068,28 @@ footer {
 
     .think>h1 {
         font-size: 40px;
+        text-align: center;
     }
 
     .FAQ {
         width: 400px;
+        padding: 30px 0 50px 0;
     }
+
+    .FAQ>h1 {
+        text-align: center;
+    }
+
 
     .aboutLiliane {
         width: 400px;
         gap: 20px;
 
         text-align: center;
+    }
+
+    .aboutLiliane>h1 {
+        width: 400px;
     }
 
     .aboutLiliane>div {
@@ -1079,3 +1106,192 @@ footer {
         padding-right: 10px;
     }
 }
+
+@media (max-width: 450px) {
+    .secMain>img {
+        width: 80%;
+        bottom: 0;
+        right: 0%;
+    }
+
+    .headTxt {
+        padding-top: 10vh;
+    }
+
+    .headTxt>h1 {
+        font-size: 35px;
+        width: 350px;
+        text-align: justify;
+    }
+
+    .headTxt>p {
+
+        font-size: 15px;
+        width: 350px;
+        text-align: justify;
+    }
+
+    .secondItn {
+        padding-bottom: 50px;
+    }
+
+    .secondItn>h2 {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .gridItn {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .gridItn>div {
+        gap: 10px;
+        flex-direction: row;
+        font-size: 12px;
+        text-align: left;
+        width: 70%;
+    }
+
+    .gridItn>div>img {
+        width: 50px;
+    }
+
+    .about>.line {
+        height: 80px;
+    }
+
+    .about>.line>p {
+        width: 90vw;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .about>.aboutHead {
+        width: 350px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about>.body {
+        width: 350px;
+    }
+
+    .about>.body>h2 {
+        width: 350px;
+    }
+
+    .about>.body button {
+        font-size: 13px;
+    }
+
+    .courseContent {
+        padding: 0 0 30px 0;
+    }
+
+    /* titulo */
+
+    .courseContentWrap {
+        width: 350px;
+        gap: 10px;
+    }
+    
+    .CourseContentHeader {
+        font-size: 20px !important;
+        padding: 50px 0 30px 0 !important;
+    }
+
+    .CourseContentHeaderSpan {
+        font-size: 30px;
+    }
+
+    .bonusTxt>h2{
+        font-size: 15px;
+    }
+
+    .bonusTxt>p{
+        font-size: 14px;
+    }
+
+    .bonus button{
+        font-size: 13px;
+    }
+
+    .price>h2 {
+        font-size: 20px;
+    }
+
+    .vlTotalN {
+        font-size: 50px;
+    }
+
+    .vl {
+        font-size: 30px;
+    }
+
+    .price button{
+        font-size: 13px;
+    }
+    .softWr{
+        font-size: 13px;
+    }
+
+    
+    .garantiaWrap>h1 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .garantia {
+        width: 350px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .garantia>img {
+        width: 100px;
+        padding-right: 0;
+    }
+
+    .garantia>div>p {
+        font-size: 12px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    .think {
+        width: 350px;
+    }
+
+    .think>h1 {
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .FAQ {
+        width: 350px;
+    }
+
+    .FAQ>h1 {
+        font-size: 30px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .aboutLiliane {
+        width: 350px;
+    }
+
+    .aboutLiliane>h1 {
+        width: 350px;
+        font-size: 30px;
+    }
+}
+
+
+/* resposividade XR main | SE */
+/* SEO */
+/* otimizar imagem */
+/* animacao */

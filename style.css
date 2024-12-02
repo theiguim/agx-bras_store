@@ -652,7 +652,7 @@ footer {
 .itemReverse{
     opacity: 0;
     transform: translateX(100px);
-    transition: transform 1.3s ease-out, opacity 1.5s ease-out;
+    transition: transform 0.8s ease-out, opacity 1.2s ease-out;
 }
 
 .item.visible, .itemReverse.visible {

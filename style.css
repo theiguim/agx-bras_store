@@ -642,6 +642,27 @@ footer {
     align-items: center;
 }
 
+/* animation */
+.item {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.itemReverse{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: transform 1.3s ease-out, opacity 1.5s ease-out;
+}
+
+.item.visible, .itemReverse.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
 @media (max-width: 940px) {
 
     .secMain>img {
@@ -1108,7 +1129,7 @@ footer {
 }
 
 @media (max-width: 450px) {
-    .secMain{
+    .secMain {
         height: 96vh;
     }
 
@@ -1201,7 +1222,7 @@ footer {
         width: 350px;
         gap: 10px;
     }
-    
+
     .CourseContentHeader {
         font-size: 20px !important;
         padding: 50px 0 30px 0 !important;
@@ -1211,15 +1232,15 @@ footer {
         font-size: 30px;
     }
 
-    .bonusTxt>h2{
+    .bonusTxt>h2 {
         font-size: 15px;
     }
 
-    .bonusTxt>p{
+    .bonusTxt>p {
         font-size: 14px;
     }
 
-    .bonus button{
+    .bonus button {
         font-size: 13px;
     }
 
@@ -1235,14 +1256,15 @@ footer {
         font-size: 30px;
     }
 
-    .price button{
-        font-size: 13px;
-    }
-    .softWr{
+    .price button {
         font-size: 13px;
     }
 
-    
+    .softWr {
+        font-size: 13px;
+    }
+
+
     .garantiaWrap>h1 {
         font-size: 22px;
         margin-bottom: 30px;
@@ -1294,13 +1316,13 @@ footer {
         font-size: 30px;
     }
 
-    .suport{
+    .suport {
         padding-bottom: 50px;
     }
 }
 
-@media (max-width: 375px){
-    .secMain{
+@media (max-width: 375px) {
+    .secMain {
         height: 110vh;
     }
 

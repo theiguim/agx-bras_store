@@ -6,14 +6,18 @@
 * {
     padding: 0;
     margin: 0;
+    /* overflow-x: hidden !important; */
+}
+
+html{
+    overflow-x: hidden !important;
+    width: 100vw;
 }
 
 body {
     background: linear-gradient(45deg, #252525, #000000);
     width: 100vw;
-    overflow-x: hidden;
-    /* background-color: blue; */
-
+    overflow-x: hidden !important;
 }
 
 header {
@@ -32,9 +36,12 @@ header {
     background-size: cover;
     background-position: 40% 30%;
     position: relative;
+
+ 
 }
 
 .secMain>img {
+    overflow-x: hidden !important;
     position: absolute;
     width: 30%;
     bottom: 0;
@@ -646,13 +653,13 @@ footer {
 .item {
     opacity: 0;
     transform: translateX(-100px);
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    transition: transform 1s ease-out, opacity 0.5s ease-out;
 }
 
 .itemReverse{
     opacity: 0;
     transform: translateX(100px);
-    transition: transform 0.8s ease-out, opacity 1.2s ease-out;
+    transition: transform 1.3s ease-out, opacity 1.2s ease-out;
 }
 
 .item.visible, .itemReverse.visible {

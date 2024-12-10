@@ -221,7 +221,8 @@ button:hover {
 
 video{
     margin: 50px 0;
-    width: 350px;
+    max-width: 350px;
+    border-radius: 10px;
 }
 
 .about>h2 {

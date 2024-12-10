@@ -219,6 +219,11 @@ button:hover {
 }
 
 
+video{
+    margin: 50px 0;
+    width: 350px;
+}
+
 .about>h2 {
     width: 800px;
     margin: auto;
@@ -1201,6 +1206,10 @@ footer {
         font-size: 17px;
     }
 
+    video{
+        width: 300px;
+    }
+
     .about>.aboutHead {
         width: 350px;
         flex-direction: column;
@@ -1346,5 +1355,9 @@ footer {
     .headTxt>p {
 
         font-size: 17px;
+    }
+
+    video{
+        width: 280px;
     }
 }
